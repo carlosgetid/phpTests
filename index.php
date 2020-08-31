@@ -47,3 +47,17 @@ foreach(range(1,10) as $value)
 {
     echo $value;
 }
+
+echo "<br>";
+
+// array
+$array = ["java", "c#", "php", 1234];
+echo $array[2] . "<br>";
+
+$assoc = ["java" => 8, "c#" => "ADO.NET"];
+echo $assoc["java"] . "<br>";
+
+foreach($assoc as $item)
+{
+    echo $item;
+}
